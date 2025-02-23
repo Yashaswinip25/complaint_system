@@ -1,8 +1,8 @@
 /* Global Light Theme */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f7f7f7; /* Light Grey */
-    color: #222;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light Grey Background */
+    color: #333; /* Dark Text */
     margin: 0;
     padding: 0;
     text-align: center;
@@ -10,98 +10,73 @@ body {
 
 /* Container Styling */
 .container {
-    max-width: 700px;
+    max-width: 800px;
     margin: auto;
     background: white;
-    padding: 20px; 
-    border-radius: 8px;
+    padding: 20px;
+    border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 /* Headings */
 h1, h2 {
-    color: #2d8659; /* Soft green */
-    font-size: 22px; /* Smaller Heading */
-    margin-bottom: 10px;
+    color: #0056b3; /* Soft Blue */
 }
 
 /* Paragraphs */
 p {
-    font-size: 14px;
-    color: #444;
-    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555; /* Medium Grey */
 }
 
 /* Buttons & Links */
 button, .btn, a {
     display: inline-block;
-    background: #2d8659; /* Dark Green */
+    background: #007bff; /* Blue */
     color: white;
-    padding: 8px 18px;
+    padding: 10px 20px;
     text-decoration: none;
     border: none;
-    border-radius: 6px;
-    margin-top: 8px;
-    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
     cursor: pointer;
-    transition: background 0.3s ease-in-out;
+    transition: background 0.3s;
 }
 
 button:hover, .btn:hover, a:hover {
-    background: #1e6b47;
+    background: #0056b3; /* Darker Blue */
 }
 
-/* 📌 Compact Formal Form Design */
+/* Form Styling - Reduced Height */
 form {
-    background: #f0f0f0; /* Light Grey */
-    padding: 15px;
-    border-radius: 8px;
-    width: 45%; /* Compact Width */
+    background: white;
+    padding: 15px; /* Kam Padding */
+    border-radius: 5px;
+    width: 40%; /* Thoda Chhota Kiya */
     margin: auto;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-height: 500px; /* 🔥 Adjusted Form Height */
-    overflow-y: hidden; /* No Scrolling */
-}
-
-/* Labels */
-form label {
-    font-weight: bold;
-    color: #333;
-    margin-top: 5px;
-    font-size: 14px;
-    width: 100%;
-    text-align: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Input Fields */
 input, textarea, select {
     width: 100%;
-    padding: 6px;
-    margin-top: 3px;
-    background: white;
-    border: 1px solid #999;
-    color: #222;
-    border-radius: 4px;
-    font-size: 14px;
-    height: 30px; /* ✅ Smaller Input Fields */
+    padding: 8px; /* Kam Padding */
+    margin: 5px 0; /* Kam Margin */
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    color: #333;
+    border-radius: 5px;
 }
 
-textarea {
-    height: 70px; /* ✅ Smaller Textarea */
+input::placeholder, textarea::placeholder {
+    color: #777;
 }
 
-input:focus, textarea:focus {
-    border-color: #2d8659;
-    background: #f9f9f9;
-}
-
-/* Success Page Centered */
+/* Success Page Text Center */
 .success-container {
-    height: 100vh;
+    height: 100vh; /* Pura Screen Cover Kare */
     display: flex;
     justify-content: center;
     align-items: center;
