@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Complaint System</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'complaints/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Customer Complaint System</h1>
+        <p>If you have any issues, feel free to submit a complaint.</p>
+        <a href="{% url 'submit_complaint' %}">Submit a Complaint</a>
+    </div>
+</body>
+</html>
